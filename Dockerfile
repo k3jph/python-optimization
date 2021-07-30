@@ -53,6 +53,7 @@ RUN export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true && \
     lsb-release \
     make \
     openjdk-11-jdk \
+    parallel \
     pkg-config \
     python3 \
     python3-dev \
