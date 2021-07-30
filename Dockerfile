@@ -83,6 +83,7 @@ RUN export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true && \
 RUN python3 -m pip --no-cache-dir install -U pip wheel setuptools
 
 RUN python3 -m pip --no-cache-dir install \
+	cbor \
     h5py \
     matplotlib \
     numpy \
